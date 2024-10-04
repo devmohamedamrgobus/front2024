@@ -1,0 +1,123 @@
+:root {
+   --color:rgb(231, 130, 130);
+   --second-color:green;
+   --font-size:10px;
+   --space:10px; 
+   --x:20px;
+}
+
+
+/*
+  graduant
+   flex
+   grid
+   media query 
+   min,max width , height  
+*/
+/* body {
+    height:3000px;
+}
+
+.bg {
+    width: 100%;
+    height: 300px;
+    background:url('img/business-2\ \(2\).jpg') rgba(0, 0, 0, 0.301);
+    background-blend-mode: color;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.red {
+    width:300px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:1000;
+}
+
+.green {
+    width:200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:3;
+}
+
+.blue {
+    width:100px;
+    height: 100px;
+    background-color:blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:2;
+} */
+
+
+/* .element {
+    width: 300px;
+    height: 500px;
+    background: red;
+    float: right;
+}
+.clr {
+    clear: both;
+}
+.service {
+    width:200px;
+    height: 200px;
+    background: blue;
+} */
+
+
+
+.btn {
+    text-transform: uppercase;
+    padding: 15px 35px;
+    border: none;
+    background: teal;
+    color: white;
+    border-radius: 5%;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.086);
+    position: absolute;
+    top: 0;
+    left: -200px;
+    transition: 1s;
+}
+
+.btn::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(111, 32, 32, 0.213);
+    position: absolute;
+    top: 0;
+    right: -200px;
+    transition: 1s;
+}
+
+.btn:hover::after {
+    left: 0;
+}
+
+
+.btn:hover::before {
+    right: 0;
+}

@@ -1,0 +1,176 @@
+
+/* 
+.member {
+    width: 300px;
+    height: 300px;
+    background: gray;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+.member:hover .member-social {
+    left: 0px;
+}
+.member img {
+    width: 100%;
+    height: 100%;
+}
+
+.member-social {
+    width: 20%;
+    height: 100%;
+    background: blue;
+    position: absolute;
+    left: -100px;
+    transition: 1s;
+} */
+
+
+/* 
+.member {
+    width: 300px;
+    height: 400px;
+    margin: 100px auto;
+    background: gold;
+    position: relative;
+    overflow: hidden;
+}
+
+.member:hover .member-social {
+    top: 0;
+
+}
+.member:hover .member-content {
+    left: 25%;
+
+}
+
+.member img {
+    width: 100%;
+    height: 100%;
+}
+
+.member-social {
+    transition: 1s;
+    width: 70%;
+    height: 10%;
+    background: red;
+    position: absolute;
+    top: -100px;
+    left: 25%;
+}
+
+.member-content {
+    transition: 1s;
+
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    background: blue;
+    bottom: 10%;
+    left: -100%;
+} */
+
+
+/* .box {
+    width: 300px;
+    height: 300px;
+    background: red;
+    border-radius: 50%;
+} */
+
+/* 
+.box {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+.box:hover .circle {
+    left: -50px;
+    bottom: -50px;
+    opacity: 1;
+}
+.box:hover img {
+    transform: scale(1,1);
+}
+
+.box img {
+    transform: scale(1.5,1.5);
+
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+
+.circle {
+    transition: 1s;
+    width: 300px;
+    height: 300px;
+    background: blue;
+    border-radius: 50%;
+    position:absolute;
+    left: -300px;
+    bottom: -300px;
+    opacity: 0;
+} */
+
+
+/* .box {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin: 100px auto;
+    transition: 1s;
+    &:hover{
+        transform:matrix(0.95,-0.43,1.26,0.23,8,0);
+    }
+} */
+
+
+/* .animation {
+    width: 300px;
+    height: 300px;
+    background: red;
+    margin: 100px auto;
+    animation: animi 2s infinite;
+}
+
+
+@keyframes animi {
+    10%{ background: blue; rotate: 100deg;}
+    30% {background: yellow; scale: 2 2;}
+    50% {background: gray; translate: 100px 100px;}
+    70% {background: blueviolet; rotate: -200deg;}
+    100%{background: black; transform: skew(50deg);}
+} */
+
+
+.rounded {
+    width: 25px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25%;
+    margin: 100px auto;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 5px;
+    height:5px;
+    background:black;
+    border-radius:50%;
+    animation: animite 1s infinite;
+}
+
+
+
+@keyframes animite {
+    from {top:10%}
+    to {top:50%;opacity: 0;}
+}
